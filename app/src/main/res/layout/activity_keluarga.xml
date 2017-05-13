@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_keluarga"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    tools:context="com.example.owner.animalium.KeluargaActivity">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/one"
+        android:id="@+id/imageView9" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/two"
+        android:id="@+id/imageView10"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="waahidun (  وَاحِدٌ)"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:paddingBottom="8dp"
+        android:layout_above="@+id/imageView10"
+        android:layout_toRightOf="@+id/imageView9"
+        android:layout_toEndOf="@+id/imageView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="itsnaani (  اِثْنَانِ)"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:id="@+id/textView12"
+        android:paddingBottom="10dp"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/three"
+        android:layout_marginTop="11dp"
+        android:id="@+id/imageView11"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tsalaatsatun (  ثَلَاثَةٌ)"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/imageView11"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:id="@+id/textView13"
+        android:paddingBottom="11dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/four"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="arba'atun (  أَرْبَعَةٌ)"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/imageView12"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:id="@+id/textView14"
+        android:paddingBottom="11dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/five"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/imageView13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="khamsatun (  خَمْسَةٌ)"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/imageView13"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:id="@+id/textView15"
+        android:paddingBottom="11dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/six"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/imageView14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sittatun (  سِتَّةٌ)"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/imageView14"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:id="@+id/textView16"
+        android:paddingBottom="8dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/seven"
+        android:layout_below="@+id/imageView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/imageView16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sab'atun (  سَبْعَةٌ)"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/imageView16"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:id="@+id/textView17"
+        android:paddingBottom="8dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/eight"
+        android:layout_below="@+id/imageView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tsamaaniyatun (  ثَمَانِيَةٌ)"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/imageView17"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:id="@+id/textView18"
+        android:paddingBottom="8dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/nine"
+        android:layout_below="@+id/imageView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/imageView18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tis'atun (  تِسْعَةٌ)"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/imageView18"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:id="@+id/textView19"
+        android:paddingBottom="8dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ten"
+        android:layout_below="@+id/imageView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="'asyratun (  عَشْرَةٌ )"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/imageView19"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:id="@+id/textView20"
+        android:paddingBottom="8dp"/>
+
+
+</RelativeLayout>

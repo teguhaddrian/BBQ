@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    android:id="@+id/layouthari">
+
+
+    <ImageView
+        android:id="@+id/hariarab"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:src="@drawable/senin"/>
+
+    <TextView
+        android:id="@+id/hurufarab"
+        android:layout_marginLeft="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yaumul Itsnayni (يوم الاِثنين)"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_toRightOf="@+id/hariarab"
+        android:layout_toEndOf="@+id/hariarab"
+        android:layout_marginStart="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yaumuts Tsulaatsaai (يوم الثّلاثاء)"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/hurufarab"
+        android:layout_alignStart="@+id/hurufarab" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:src="@drawable/rabu"
+        android:layout_marginTop="16dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yaumul Arbi'aai (يوم الأربعاء)"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:id="@+id/textView6"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:src="@drawable/selasa"
+        android:id="@+id/imageView"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/hariarab"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yaumus Sabti (يوم السّبت)"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="38dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:src="@drawable/sabtu"
+        android:id="@+id/imageView7"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:src="@drawable/minggu"
+        android:layout_marginTop="55dp"
+        android:id="@+id/imageView8"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yaumul Ahadi (يوم الأحد)"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:id="@+id/textView11"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:src="@drawable/kamis"
+        android:layout_marginTop="27dp"
+        android:id="@+id/imageView5"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:src="@drawable/jumat"
+        android:id="@+id/imageView6"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Yaumul Khomiis (يوم الخميس)"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yaumul Jumu'ati (يوم الجمعة)"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:id="@+id/editText"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+
+</RelativeLayout>
